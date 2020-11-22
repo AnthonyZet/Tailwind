@@ -1,13 +1,9 @@
-
-
-
 {
   "name": "TailWind",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "build-css": "npx tailwindcss-cli@latest build -o tailwind.css"
+    "build-css": "tailwindcss build src/style.css  -o public/style.css"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +12,14 @@
     "autoprefixer": "^10.0.2",
     "postcss": "^8.1.9",
     "tailwindcss": "^2.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyZet/Tailwind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AnthonyZet/Tailwind/issues"
+  },
+  "homepage": "https://github.com/AnthonyZet/Tailwind#readme",
+  "description": ""
 }
